@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Follicle No. (R) <= 7.5\nsamples = 432\nvalue = [291, 141]\nclass = No PCOS", fillcolor="#f2be99"] ;
+1 [label="hair growth(Y/N) <= 0.5\nsamples = 280\nvalue = [249, 31]\nclass = No PCOS", fillcolor="#e89152"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Cycle(R/I) <= 3.0\nsamples = 226\nvalue = [215, 11]\nclass = No PCOS", fillcolor="#e68743"] ;
+1 -> 2 ;
+3 [label="samples = 184\nvalue = [182, 2]\nclass = No PCOS", fillcolor="#e5823b"] ;
+2 -> 3 ;
+4 [label="samples = 42\nvalue = [33, 9]\nclass = No PCOS", fillcolor="#eca36f"] ;
+2 -> 4 ;
+5 [label="Follicle No. (L) <= 7.5\nsamples = 54\nvalue = [34, 20]\nclass = No PCOS", fillcolor="#f4cbad"] ;
+1 -> 5 ;
+6 [label="samples = 44\nvalue = [33, 11]\nclass = No PCOS", fillcolor="#eeab7b"] ;
+5 -> 6 ;
+7 [label="samples = 10\nvalue = [1, 9]\nclass = PCOS", fillcolor="#4fa8e8"] ;
+5 -> 7 ;
+8 [label="Weight gain(Y/N) <= 0.5\nsamples = 152\nvalue = [42.0, 110.0]\nclass = PCOS", fillcolor="#85c2ef"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="hair growth(Y/N) <= 0.5\nsamples = 69\nvalue = [35, 34]\nclass = No PCOS", fillcolor="#fefbf9"] ;
+8 -> 9 ;
+10 [label="samples = 50\nvalue = [32, 18]\nclass = No PCOS", fillcolor="#f4c8a8"] ;
+9 -> 10 ;
+11 [label="samples = 19\nvalue = [3, 16]\nclass = PCOS", fillcolor="#5eafea"] ;
+9 -> 11 ;
+12 [label="Follicle No. (L) <= 5.5\nsamples = 83\nvalue = [7.0, 76.0]\nclass = PCOS", fillcolor="#4ba6e7"] ;
+8 -> 12 ;
+13 [label="samples = 13\nvalue = [5, 8]\nclass = PCOS", fillcolor="#b5daf5"] ;
+12 -> 13 ;
+14 [label="samples = 70\nvalue = [2, 68]\nclass = PCOS", fillcolor="#3fa0e6"] ;
+12 -> 14 ;
+}
