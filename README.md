@@ -8,8 +8,11 @@ El propósito es presentar un flujo completo de trabajo reproducible para clasif
 
 ## Autoras
 Iris Alina Pérez Rivera
+
 Fernanda García Rodríguez
+
 Diana García Trujillo
+
 Karol Paola Rosales Miranda
 
 ---
@@ -41,9 +44,14 @@ Proveer visualizaciones y reportes para interpretación clínica y técnica.
 ---
 
 ## Métricas y criterios de evaluación
-Accuracy — proporción de predicciones correctas.
-Precision — proporción de verdaderos positivos entre las predicciones positivas.
-Recall (sensibilidad) — proporción de verdaderos positivos detectados.
-F1-Score — media armónica entre precision y recall (utilizada como métrica principal para balance).
-AUC-ROC — capacidad discriminativa del modelo.
+Accuracy: proporción de predicciones correctas.
+
+Precision: proporción de verdaderos positivos entre las predicciones positivas.
+
+Recall (sensibilidad): proporción de verdaderos positivos detectados.
+
+F1-Score: media armónica entre precision y recall (utilizada como métrica principal para balance).
+
+AUC-ROC: capacidad discriminativa del modelo.
+
 Además: matriz de confusión, curvas ROC y análisis de coeficientes/support vectors donde aplica.
